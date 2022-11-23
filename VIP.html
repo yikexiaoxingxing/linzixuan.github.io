@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vip视频破解</title>
+	<style type="text/css">
+		#textbox{
+			font-size: 20px;
+			width: 500px;
+		}
+		#select_www{
+			font-size: 20px;
+		}
+		#button_www{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+    <select id="select_www" onchange="surf()">
+        <option value="0" selected="selected">请选择</option>
+        <option value="https://jx.aidouer.net/?url=">端口一</option>
+		<option value="https://jx.jsonplayer.com/player/?url=">端口二</option>
+		<option value="https://jx.iztyy.com/svip/?url=">端口三</option>
+		<option value="https://jx.aidouer.net/?url=">端口四</option>
+		<option value="https://jx.parwix.com:4433/player/?url=">端口五</option>
+		<option value="https://www.administratorw.com/video.php?url=">端口六</option>
+		<option value="https://www.pangujiexi.cc/jiexi.php?url=">端口七</option>
+		<option value="https://jx.jsonplayer.com/player/?url=">端口八</option>
+		<option value="https://2.08bk.com/?url=">端口九</option>
+		<option value="https://www.administratorw.com/video.php?url=">端口十</option>
+		<option value="https://svip.bljiex.cc/?v=">端口十一</option>
+    </select>
+    <input type="text" id="textbox">
+    <button value="" id="button_www" onclick="jump()">开始解析播放</button>
+</body>
+<script type="text/javascript">
+    
+    function surf(){
+        select=document.getElementById("select_www").value;
+        switch(select){
+            case "https://jx.aidouer.net/?url=" :
+            document.getElementById("textbox").value="https://jx.aidouer.net/?url=";
+            break;
+            case "https://jx.jsonplayer.com/player/?url=" :
+            document.getElementById("textbox").value="https://jx.jsonplayer.com/player/?url=";
+            break;
+            case "https://jx.iztyy.com/svip/?url=" :
+            document.getElementById("textbox").value="https://jx.iztyy.com/svip/?url=";
+            break;
+            case "https://jx.aidouer.net/?url=" :
+            document.getElementById("textbox").value="https://jx.aidouer.net/?url=";
+            break;
+			case "https://jx.parwix.com:4433/player/?url=" :
+			document.getElementById("textbox").value="https://jx.parwix.com:4433/player/?url=";
+			break;
+			case "https://www.administratorw.com/video.php?url=" :
+			document.getElementById("textbox").value="https://www.administratorw.com/video.php?url=";
+			break;
+			case "https://www.pangujiexi.cc/jiexi.php?url=" :
+			document.getElementById("textbox").value="https://www.pangujiexi.cc/jiexi.php?url=";
+			break;
+			case "https://jx.jsonplayer.com/player/?url=" :
+			document.getElementById("textbox").value="https://jx.jsonplayer.com/player/?url=";
+			break;
+			case "https://2.08bk.com/?url=" :
+			document.getElementById("textbox").value="https://2.08bk.com/?url=";
+			break;
+			case "https://www.administratorw.com/video.php?url=" :
+			document.getElementById("textbox").value="https://www.administratorw.com/video.php?url=";
+			break;
+			case "https://svip.bljiex.cc/?v=" :
+			document.getElementById("textbox").value="https://svip.bljiex.cc/?v=";
+			break;
+        }
+    }
+    function jump(){
+        location=document.getElementById("textbox").value;
+    }
+</script>
+</html>
