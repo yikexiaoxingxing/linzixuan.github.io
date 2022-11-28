@@ -45,3 +45,7 @@ function jump(){
     
     location=document.getElementById("textboxa").value;
 }
+
+function jumpjump(){
+    document.getElementById("textboxb").value="";
+}
