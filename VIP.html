@@ -1,93 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>vip视频破解</title>
-	<style type="text/css">
-		#select_www{
-			font-size: 20px;
-			display: block;
-			margin: auto;
-		}
-		#textbox{
-			font-size: 20px;
-			width: 500px;
-			display: block;
-			margin: auto;
-		}
-		#button_www{
-			font-size: 20px;
-			display: block;
-			margin: auto;
-		}
-		#brief{
-			font-size: 20px;
-			display: block;
-			text-align: center;
-		}
-	</style>
-</head>
-<body>
-    <select id="select_www" onchange="surf()">
-        <option value="https://jx.aidouer.net/?url=">请选择端口</option>
-        <option value="https://jx.aidouer.net/?url=">端口一</option>
-		<option value="https://jx.jsonplayer.com/player/?url=">端口二</option>
-		<option value="https://jx.iztyy.com/svip/?url=">端口三</option>
-		<option value="https://jx.aidouer.net/?url=">端口四</option>
-		<option value="https://jx.parwix.com:4433/player/?url=">端口五</option>
-		<option value="https://www.administratorw.com/video.php?url=">端口六</option>
-		<option value="https://www.pangujiexi.cc/jiexi.php?url=">端口七</option>
-		<option value="https://jx.jsonplayer.com/player/?url=">端口八</option>
-		<option value="https://2.08bk.com/?url=">端口九</option>
-		<option value="https://www.administratorw.com/video.php?url=">端口十</option>
-		<option value="https://svip.bljiex.cc/?v=">端口十一</option>
-    </select>
-    <input type="text" id="textbox" placeholder="请选择端口并粘贴视频网址">
-    <button value="" id="button_www" onclick="jump()">开始解析播放</button>
-	<p id="brief">支持解析：优酷、爱奇艺、腾讯、芒果、乐视、搜狐、MP4、M3U8、FLV等等<br>本站只适用于交流学习，请勿商业用途<br>公众号：铁蛋导航<br><br>使用方法<br>在视频平台搜索到视频—>复制视频网址—>回到本网站—>选择端口—>视频网址粘贴到文本框—>点击"开始解析播放"</p>
-</body>
-<script type="text/javascript">
-    
-    function surf(){
-        select=document.getElementById("select_www").value;
-        switch(select){
-            case "https://jx.aidouer.net/?url=" :
-            document.getElementById("textbox").value="https://jx.aidouer.net/?url=";
-            break;
-            case "https://jx.jsonplayer.com/player/?url=" :
-            document.getElementById("textbox").value="https://jx.jsonplayer.com/player/?url=";
-            break;
-            case "https://jx.iztyy.com/svip/?url=" :
-            document.getElementById("textbox").value="https://jx.iztyy.com/svip/?url=";
-            break;
-            case "https://jx.aidouer.net/?url=" :
-            document.getElementById("textbox").value="https://jx.aidouer.net/?url=";
-            break;
-			case "https://jx.parwix.com:4433/player/?url=" :
-			document.getElementById("textbox").value="https://jx.parwix.com:4433/player/?url=";
-			break;
-			case "https://www.administratorw.com/video.php?url=" :
-			document.getElementById("textbox").value="https://www.administratorw.com/video.php?url=";
-			break;
-			case "https://www.pangujiexi.cc/jiexi.php?url=" :
-			document.getElementById("textbox").value="https://www.pangujiexi.cc/jiexi.php?url=";
-			break;
-			case "https://jx.jsonplayer.com/player/?url=" :
-			document.getElementById("textbox").value="https://jx.jsonplayer.com/player/?url=";
-			break;
-			case "https://2.08bk.com/?url=" :
-			document.getElementById("textbox").value="https://2.08bk.com/?url=";
-			break;
-			case "https://www.administratorw.com/video.php?url=" :
-			document.getElementById("textbox").value="https://www.administratorw.com/video.php?url=";
-			break;
-			case "https://svip.bljiex.cc/?v=" :
-			document.getElementById("textbox").value="https://svip.bljiex.cc/?v=";
-			break;
-        }
-    }
-    function jump(){
-        location=document.getElementById("textbox").value;
-    }
-</script>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>VIP视频破解</title>
+		<link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<select name="list" id="dropdown" onchange="window.location=this.value;">
+				<option value="">友情链接</option>
+				<option value="https://www.iqiyi.com/">爱奇艺</option>
+				<option value="https://v.qq.com/">腾讯视频</option>
+				<option value="https://www.youku.com/">优酷</option>
+				<option value="https://www.mgtv.com/">芒果TV</option>
+				<option value="http://www.le.com/">乐视视频</option>
+				<option value="https://tv.sohu.com/">搜狐视频</option>
+				<option value="https://www.bilibili.com/">哔哩哔哩</option>
+			</select>
+			<div><p></p></div>
+			<select id="select_www" onchange="surf()">
+				<option value="1">端口一</option>
+				<option value="2">端口二</option>
+				<option value="3">端口三</option>
+				<option value="4">端口四</option>
+				<option value="5">端口五</option>
+				<option value="6">端口六</option>
+				<option value="7">端口七</option>
+				<option value="8">端口八</option>
+				<option value="9">端口九</option>
+				<option value="10">端口十</option>
+				<option value="11">端口十一</option>
+			</select>
+			<div><p></p></div>
+			<input type="text" id="textbox" value="https://jx.aidouer.net/?url=">
+			<input type="text" id="textboxa">
+			<input type="text" id="textboxb" placeholder="请输入视频网址">
+			<div><p></p></div>
+			<button value="" id="button_www" onclick="jump()">开始解析播放</button>
+		</div>
+	</body>
 </html>
